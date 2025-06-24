@@ -4,12 +4,11 @@ A feature-rich React counter app with persistent local storage, count history, a
 
 ## 🚀 Features
 
-- ✅ **Increment / Decrement** counter
-- ✅ **Reset** count and history
-- ✅ **Step value** customization
-- ✅ **Count history tracking**
-- ✅ **Persistent state** using `localStorage`
-- ✅ **Responsive UI** with scrollable history section
+-  **Increment / Decrement** counter
+-  **Reset** count and history
+-  **Step value** customization
+-  **Count history tracking**
+-  **Persistent state** using `localStorage`
 
 ## 📸 Preview
 
@@ -36,3 +35,12 @@ A feature-rich React counter app with persistent local storage, count history, a
    ```bash
    git clone https://github.com/yourusername/advance-counter.git
    cd advance-counter
+## Useful Resources
+Here are some helpful resources used or referenced during development:
+- 📘 MDN – localStorage
+   Official docs for localStorage, including getItem, setItem, 
+- ⚛️ React Docs – useEffect
+  Understand side effects, dependency arrays, and cleanup functions.
+- 🧩 Custom Hook Activity – 
+  ([Lesson3](https://ps-lms.vercel.app/curriculum/se/416/lesson-3))
+  Covers building and using the useLocalStorage hook to persist state.
