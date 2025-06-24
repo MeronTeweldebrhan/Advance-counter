@@ -1,12 +1,38 @@
-# React + Vite
+# AdvanceCounter 🧮
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A feature-rich React counter app with persistent local storage, count history, and step customization. Built to demonstrate React hooks, local storage handling, and basic UI best practices.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- ✅ **Increment / Decrement** counter
+- ✅ **Reset** count and history
+- ✅ **Step value** customization
+- ✅ **Count history tracking**
+- ✅ **Persistent state** using `localStorage`
+- ✅ **Responsive UI** with scrollable history section
 
-## Expanding the ESLint configuration
+## 📸 Preview
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+![screenshot](./src/assets/Screenshot%202025-06-23%20203447.png) <!-- optional if you add a screenshot -->
+
+## 📦 Tech Stack
+
+- React (Vite)
+- Tailwind CSS
+- JavaScript 
+- Custom `useLocalStorage` hook
+
+## 🔧 How It Works
+
+- App loads initial state from `localStorage`.
+- Each count change updates both the display and history.
+- Local storage keeps data across page reloads.
+- The history list scrolls if it exceeds the container height.
+
+## 🧑‍💻 Getting Started
+
+1. **Clone the repo**
+
+   ```bash
+   git clone https://github.com/yourusername/advance-counter.git
+   cd advance-counter
